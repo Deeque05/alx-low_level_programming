@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	wtite(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 55);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 55);
 return (1);
 }
