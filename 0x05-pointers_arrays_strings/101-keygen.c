@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - creates a password of sum 1992
+ * main - creates a password of sum 2772
  *
  * Return:0;
  */
@@ -11,7 +11,7 @@ int main(void)
 	int keynumber, symbol, checksum;
 
 	srand(time(NULL));
-	checksum = 1992;
+	checksum = 2772;
 	keynumber = 0;
 
 	while (keynumber < (checksum - 122))
